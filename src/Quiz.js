@@ -3,7 +3,7 @@ import React, {  Component } from 'react'
 let quizData = require('./quiz_data.json')
 
 
- class Quiz extends Component{
+export class Quiz extends Component{
      constructor(props){
          super(props)
          this.state={ quiz_position: 1}
@@ -15,4 +15,4 @@ let quizData = require('./quiz_data.json')
      }
  }
 
- export default Quiz
+ //export default Quiz
